@@ -1,257 +1,69 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <title>Bootstrap Example</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title> Sallahuddin Khan CV</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
+  <link rel='stylesheet' type='text/css' href='styles.css'>
+  
+
 </head>
-<style>
-    body{
-        background-image:url("gif1.gif");
-		
-    }
-    .thumb1 {
-        
-        padding: 60px 10px;
-        text-align: center;
-       
-		
-    }
-    .thumb2 {
-        padding: 60px 10px;
-        text-align: center;
-        background-image: url('pic2.jpg');
-        transition: 800ms ease all;
-        align-items: center;
-    }
-        .thumb2:hover {
-            opacity: 0.5;
-            transition: 800ms ease all;
-        }
-		
-		    .thumb3 {
-        padding: 60px 10px;
-        text-align: center;
-        background-image: url('pic3.jpg');
-        transition: 800ms ease all;
-        align-items: center;
-    }
-        .thumb3:hover {
-            opacity: 0.5;
-            transition: 800ms ease all;
-        }
-		
-		    .thumb4 {
-        padding: 60px 10px;
-        text-align: center;
-        background-image: url('pic4.jpg');
-        transition: 800ms ease all;
-        align-items: center;
-    }
-        .thumb4:hover {
-            opacity: 0.5;
-            transition: 800ms ease all;
-        }
-		
-		    .thumb5 {
-        padding: 60px 10px;
-        text-align: center;
-        background-image: url('pic7.jpg');
-        transition: 800ms ease all;
-        align-items: center;
-    }
-        .thumb5:hover {
-            opacity: 0.5;
-            transition: 800ms ease all;
-        }
-		
-		   
-.thumb6 {
-        padding: 60px 10px;
-        text-align: center;
-        background-image: url('pic6.jpg');
-        transition: 800ms ease all;
-        align-items: center;
-    }
-        .thumb6:hover {
-            opacity: 0.5;
-            transition: 800ms ease all;
-        }
-
-		
-    .imageClass {
-        border-radius: 10px;
-        transition: 800ms ease all;
-    }
-
-        .imageClass:hover {
-            
-            filter: blur(2px) brightness(60%);
-            transition: 800ms ease all;
-        }
-		
-		.imageClass: not(img){
-			opacity:0;
-			transition: 3s;
-		
-		}
-		.imageClass:hover: not(img){
-			opacity:0;
-			transition: 3s;
-		
-		}
-
-
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-        .heading1{
-            font-family:sans-serif;
-            font-size:x-large;
-            color:aliceblue;
-            
-        }
-    .text1 {
-        font-family: sans-serif;
-        font-size: medium;
-        color: aliceblue;
-    }
-    .myButtonAnimation {
-		text-align:center;
-		align-items:center;
-        width: 100px;
-        height: 80px;
-        background-color:dimgray;
-        position: relative;
-        animation-name: example;
-        animation-duration: 2.5s;
-        transition: 800ms
-		font-family:sans-serif;
-        font-size:medium;
-        color:aliceblue;
-		transition: 800ms ease all;
-    }
-	.myButtonAnimation:hover{
-		opacity: 0.5;
-        transition: 800ms ease all;
-	
-	}
-    @keyframes example {
-        0% {
-			opacity: 0.5;
-            background-color:dimgrey;
-            left: 600px;
-            top: 0px;
-        }
-
-        100% {
-			opacity: 0.5;
-            background-color:grey;
-            left: 0px;
-            top: 0px;
-        }
-    }
-	.myJAnimation1{
-		background-color:dimgray;
-		position: relative;
-        animation-name: jumbo1;
-        animation-duration: 2.5s;
-		transition: 800ms
-	}
-	@keyframes jumbo1 {
-        0% {
-            background-color:dimgrey;
-            left: 600px;
-            top: 0px;
-        }
-
-        100% {
-            background-color:grey;
-            left: 0px;
-            top: 0px;
-        }
-    }
-</style>
 <body>
+  <div class='overlay'><h1>Sallahuddin Khan</h1> 
+	<p id="MyClockDisplay"></p>
+		<div id='Next' class='Next'>NEXT</div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-offset-2 col-xs-8 col-xs-offset-2 col-md-offset-1 col-md-4 col-md-offset-1  thumb1 "><img src="pic.jpg" class="imageClass" width="150" height="190" /><p>Hello</p></div>
-            <!--<div class="col-md-1"></div>-->
-            <div class="col-xs-offset-2 col-xs-8 col-xs-offset-2 col-md-offset-2 col-md-8 col-md-offset-2 thumb2">
-                <h1 class="heading1">SALLAHUDDIN KHAN</h1><br />
-                <p class="text1">House no.39, Sector A, Askari 11, Lahore,<br />Cell: 92-320-4848728 , Landline: 92-423-7165139<br />Email: l164217@lhr.nu.edu.pk</p>
-            </div> 
-             <div class="col-md-1"></div> 
-            <!-- <div class="col-xs-1 thumb">page</div> -->
-        </div>
-    </div>
-	</br>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-offset-2 col-xs-6 col-xs-offset-2 col-md-offset-2 col-md-2 col-md-offset-2 myButtonAnimation"><a href="#Edu"><b>Education</b></a></div>
-            <div class="col-md-1"></div>
-            <div class="col-xs-offset-2 col-xs-6 col-xs-offset-2 col-md-offset-2 col-md-2 col-md-offset-2 myButtonAnimation"><a href="#P&E"><b>Projects and Experiences</b></a></div>
-            <div class="col-md-1"></div>
-            <div class="col-xs-offset-2 col-xs-6 col-xs-offset-2 col-md-offset-2 col-md-2 col-md-offset-2 myButtonAnimation"><a href="#PS"><b>Personal Skills</b></a></div>
-            <div class="col-md-1"></div>
-            <div class="col-xs-offset-2 col-xs-6 col-xs-offset-2 col-md-offset-2 col-md-2 col-md-offset-2 myButtonAnimation"><a href="#IH"><b>Intersts and Hobbies</b></a></div>
-        </div>
-    </div>
-	</br></br>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-offset-2 col-xs-8 col-xs-offset-2 col-md-offset-4 col-md-8 col-md-offset-2 thumb3"><h1 id="Edu" class="heading1">EDUCATION</h1><br /><ul class="text1"><li>B.S (computer Science) FAST-NUCES 2016-2020</li>
-			<li>F.Sc(Pre Engineering) Punjab College Lahore 2014-2016</li></ul></div>
-		</div>
-	</div>
-	</br></br>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-1 col-md-4 "></div>
-			<div class="col-xs-offset-2 col-xs-8 col-xs-offset-2 col-md-offset-4 col-md-8 col-md-offset-2 thumb4"><h1 id="P&E" class="heading1">PROJECTS AND EXPERIENCES</h1><br /><ul class="text1"><li>Pursued various projects in subjects of ITC, DLD, Assembly Language, Computer Programming and Database.</li>
-			<li>Good Knowledge of languages like C++, Assembly, MS, PHP and CSS</li>
-			<li>Organized a seminar in university involving three guest speakers</li>
-			<li>Active volunteer in university societies</li></ul></div>
-		
-		</div>
-	</div>
-	</br></br>
-	<div class="container">
-		<div class="row">	
-			<div class="col-xs-offset-2 col-xs-8 col-xs-offset-2 col-md-offset-1 col-md-5 col-md-offset-1  thumb5 "><h1 id="PS" class="heading1">PERSONAL SKILLS</h1><br /><ul class="text1"><li>Optimistic approach towards problem solving.</li>
-			<li>Ability to work in pressure and in short time spams.</li>
-			<li>Team working skills.</li>
-			<li>Good in written and spoken english.</li></ul></div>
-			<div class="col-xs-1 col-md-2 thumb"></div>
-			
-			<div class="col-xs-offset-2 col-xs-8 col-xs-offset-2 col-md-offset-1 col-md-5 col-md-offset-1  thumb6 "><h1 id="IH" class="heading1">Interests and Hobbies</h1><br /><ul class="text1"><li>Squash Player and Swimmer at club level.</li>
-			<li>Content writing.</li>
-			<li>Drawing and sketching.</li>
-			</ul></div>
-			
-		</div>
-	</div>
-	</br></br><hr/></br></br></br></br>
-	<footer class="container">
-   <div class="row">
-   <p class="col-sm-4">RESUME OF SALLAHUDDIN KHAN</p>
-    
   </div>
-</footer>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+      <div class='overlay1 hide'>
+        <h1>House no.39, Sector A, Askari 11, Lahore,<br />Cell: 92-320-4848728 , Landline: 92-423-7165139<br />Email: l164217@lhr.nu.edu.pk</h1>
+		<div id='Next1' class='Next'>NEXT</div>
+		<div id='prev' class='previous'>PREVIOUS</div>
+		<img src="pic.jpg" class='imageClass'/>
+  </div>
+      <div class='overlay2 hide'>
+        <h1>Education</h1>
+		<p class='pp'>
+		 B.S (computer Science) FAST-NUCES 2016-2020.</br><br> F.Sc(Pre Engineering) Punjab College Lahore 2014-2016.</p>
+		<div id='Next2' class='Next'>NEXT</div>
+		<div id='prev1' class='previous'>PREVIOUS</div>
+  </div>
+	  <div class='overlay3 hide'>
+        <h1>Projects and Experiences</h1>
+		<p class='pp'> Good Knowledge of languages like C++, Assembly, MS, PHP and CSS.</br>
+			<br> Organized a seminar in university involving three guest speakers.</br>
+			<br> Active volunteer in university societies.</p>
+		<div id='Next3' class='Next'>NEXT</div>
+		<div id='prev2' class='previous'>PREVIOUS</div>		
+  </div>
+  	  <div class='overlay4 hide'>
+        <h1>Personal Skills</h1>
+		<p class='pp'> Optimistic approach towards problem solving.</br>
+			<br> Ability to work in pressure and in short time spams.</br>
+			<br> Team working skills.</br>
+			<br> Good in written and spoken english.</p>
+		<div id='Next4' class='Next'>NEXT</div>
+		<div id='prev3' class='previous'>PREVIOUS</div>		
+  </div>
+  	  <div class='overlay5 hide'>
+        <h1>Interests and Hobbies</h1>
+		<p class='pp'> Squash Player and Swimmer at club level.</br>
+			<br> Content writing.</br>
+			<br> Drawing and sketching.</p>
+		<div id='Next5' class='Next'>NEXT</div>
+		<div id='prev4' class='previous'>PREVIOUS</div>
+  </div>
+
+   <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+
+  <script src='main.js'></script> 
 </body>
+
 </html>
